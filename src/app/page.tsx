@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
         <title>p0lab</title>
         <meta name="description" content="p0lab" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="icon" type="image/png" href="/favicon.ico" />
       </Head>
 
       <div className="container">
@@ -15,9 +15,9 @@ export default function Home() {
         <p>an ai research lab</p>
         <p>we&apos;re researching on improving machine learning models as well as applying them</p>
 
-        <a target="_blank" href="https://github.com/p0-Labs" rel="noopener noreferrer">
+        <li><a target="_blank" href="https://github.com/p0-Labs">
           our github
-        </a>
+        </a></li>
 
         <h4>research/projects/articles</h4>
         <ul>
@@ -32,75 +32,65 @@ export default function Home() {
       </div>
 
       <style jsx global>{`
-        body {
-          margin: 0;
-          padding: 20px;
-          font-family: 'Courier New', Courier, monospace;
-          line-height: 1.6;
-          font-size: 16px;
-          background-color: #000;
-          color: #fff;
-          min-height: 100vh;
-          display: flex;
-          align-items: flex-start;
-          justify-content: center;
-          padding-top: 20vh;
-          font-weight: 600;
-          box-sizing: border-box;
-        }
+          body {
+              line-height: 1.5;
+              font-family: monospace;
+              color: #f0f0f0;
+              margin: 50px auto;
+              max-width: 650px;
+              background: #1b1b1b;
+              display: block;
+              padding: 10px;
+          }
 
-        .container {
-          max-width: 800px;
-          margin: 0;
-          text-align: left;
-        }
+          a {
+              color: #f0f0f0;
+          }
 
-        h3 {
-          margin-bottom: 8px;
-          font-size: 24px;
-          font-weight: 700;
-        }
+          .contact-button {
+              display: block;
+              width: 150px;
+              padding: 10px;
+              margin: 50px auto;
+              text-align: center;
+              color: white;
+              border: 2px solid white;
+              background: transparent;
+              border-radius: 5px;
+          }
 
-        h4 {
-          margin-top: 24px;
-          font-size: 20px;
-          font-weight: 700;
-        }
+          .contact-button:hover {
+              background-color: #333333;
+          }
 
-        p {
-          margin: 8px 0;
-        }
+          h3 {
+              margin-bottom: 10px;
+              font-size: 24px;
+          }
 
-        a {
-          color: #fff;
-          text-decoration: none;
-          border-bottom: 1px solid #fff;
-          font-weight: 600;
-        }
+          h4 {
+              margin-top: 10px;
+              font-size: 18px;
+          }
 
-        a:hover {
-          opacity: 0.7;
-        }
+          p {
+              margin: 8px 0;
+          }
 
-        ul {
-          padding-left: 20px;
-          margin: 8px 0;
-        }
+          a:hover {
+              opacity: 0.7;
+          }
 
-        .contact-button {
-          display: inline-block;
-          margin-top: 24px;
-          padding: 8px 16px;
-          border: 1px solid #fff;
-          border-radius: 4px;
-          font-weight: 600;
-        }
+          ul {
+            padding-left: 20px;
+            margin: 8px 0;
+          }
 
-        .contact-button:hover {
-          background: #fff;
-          color: #000;
-        }
-      `}</style>
+          li {
+            list-style-type: square;
+          }
+
+        `}</style>
     </>
   );
 }
