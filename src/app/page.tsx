@@ -24,7 +24,7 @@ export default function Home() {
           <li><a target="_blank" href="#" rel="noopener noreferrer">nothing yet</a></li>
         </ul>
 
-        <a className="contact-button" href="mailto:your.email@example.com">
+        <a className="contact-button" href="https://x.com/messages/compose?recipient_id=1735953909481357312">
           contact
         </a>
 
