@@ -13,7 +13,7 @@ export default function Home() {
       <div className="container">
         <h3>p0lab</h3>
         <p>an ai research lab</p>
-        <p>we're researching on improving machine learning models as well as applying them</p>
+        <p>we&apos;re researching on improving machine learning models as well as applying them</p>
 
         <a target="_blank" href="https://github.com/p0-Labs" rel="noopener noreferrer">
           our github
